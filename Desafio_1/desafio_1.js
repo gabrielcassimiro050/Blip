@@ -10,7 +10,9 @@ function rankear(valor) {
             return ranks[i]
         } 
     }
+    return ranks[0];
 }
 
 rank = rankear(nivel)
+
 console.log("O Herói de nome "+nome+" está no nível de "+rank)
